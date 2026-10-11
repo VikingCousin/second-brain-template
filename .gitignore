@@ -1,0 +1,29 @@
+# Persönliche Obsidian-Einstellungen und Arbeitsstand
+.obsidian/
+.trash/
+
+# QMD-Index und lokale Suchdatenbanken
+.qmd/
+*.sqlite
+*.sqlite-*
+*.db
+
+# Lokale Sprachmodelle
+*.gguf
+
+# Secrets und lokale Umgebung
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Lokale Claude-Code-Einstellungen
+.claude/settings.local.json
+
+# Systemdateien
+.DS_Store
+Thumbs.db
